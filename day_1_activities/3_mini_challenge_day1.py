@@ -1,18 +1,30 @@
 # Project Prompt:
 
+import student_data
+
+# print(student_data.students)
+students = student_data.students
+
 # You are hired to build a Student Lookup Tool for a school front office. The secretary must be able to:
 
     # Enter a student’s full name
+student_name= input("Enter student full name: ")
+for students if student_name [student_data]:
+
+    if student_name == student ['LName', 'Fname', 'MName']:
+    print(students['CPSID'])
 
     # Instantly see:
 
             # CPS ID
-
+ 
             # Homeroom
 
             # Grade Level
 
             # Primary Email
+
+
 
             # Students must:
 
@@ -20,8 +32,11 @@
 
 ## be able to add new data
 # Your program must allow the secretary to ADD a brand new student
-# into the system while the program is running.
+student_name= []
+student_name.append(item)
 
+# into the system while the program is running.
+  # if student_name.count(item)
 # Your job is to let the secretary type in a new student just like filling out a registration form.
 # Once the form is complete, your program must turn that information into a dictionary and add it to the main list of students.
 # If the student already exists (same CPS ID), your program must block the entry to prevent duplicates.
